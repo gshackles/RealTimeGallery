@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/10/nuspec.xsd">
+  <metadata>
+    <id>Microsoft.AspNet.SignalR.Owin</id>
+    <version>1.1.0-beta1</version>
+    <title>Microsoft ASP.NET SignalR OWIN</title>
+    <authors>Microsoft</authors>
+    <owners>Microsoft</owners>
+    <licenseUrl>http://www.microsoft.com/web/webpi/eula/signalr_prerelease.htm</licenseUrl>
+    <projectUrl>http://www.asp.net/signalr</projectUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <description>OWIN componenets for ASP.NET SignalR.</description>
+    <language>en-US</language>
+    <tags>Microsoft AspNet SignalR AspNetSignalR Owin</tags>
+    <dependencies>
+      <dependency id="Microsoft.AspNet.SignalR.Core" version="1.1.0-beta1" />
+      <dependency id="Owin" version="1.0" />
+    </dependencies>
+    <references>
+      <reference file="Microsoft.AspNet.SignalR.Owin.dll" />
+    </references>
+  </metadata>
+</package>

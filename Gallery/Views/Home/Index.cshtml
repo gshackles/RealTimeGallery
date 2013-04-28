@@ -1,0 +1,47 @@
+﻿@section head {
+    <style type="text/css">
+        #Photos img {
+             width: 300px;
+        }
+        #Photos li {
+            list-style-type: none;
+            display: inline;
+            padding: 2em;
+        }
+    </style>
+}
+
+<div id="body">
+    <section class="content-wrapper main-content clear-fix">
+        <h2>Watch the photos come in as they're uploaded!</h2>
+        
+        <h4>Connection status:  <span id="Status">Disconnected</span></h4>
+
+        <ul id="Photos"></ul>
+    </section>
+</div>
+
+@section scripts {
+    <script src="~/signalr/hubs"></script>
+    <script type="text/javascript">
+        $(function() {
+            var gallery = $.connection.gallery,
+                $photoList = $("#Photos");
+
+            gallery.client.newPhotosReceived = function(urls) {
+                $.each(urls, function(i, url) {
+                    var $img = $("<img/>").attr("src", url);
+                    var $item = $("<li/>").append($img).hide();
+
+                    $photoList.prepend($item);
+
+                    $item.fadeIn();
+                });
+            };
+
+            $.connection.hub.start().done(function() {
+                $("#Status").html("Connected");
+            });
+        });
+    </script>
+}
