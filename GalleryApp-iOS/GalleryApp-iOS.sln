@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GalleryApp-iOS", "GalleryApp-iOS.csproj", "{BF6D5CBE-B689-49D1-9E63-79E55DF35405}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GalleryApp.Core", "..\GalleryApp.Core\GalleryApp.Core.csproj", "{E38CEE99-4A93-4D89-B900-F2E791C450E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GalleryApp.Core.iOS", "..\GalleryApp.Core.iOS\GalleryApp.Core.iOS.csproj", "{68741C04-AB31-4D4A-B824-6AD709282363}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+		Release|iPhone = Release|iPhone
+		Ad-Hoc|iPhone = Ad-Hoc|iPhone
+		AppStore|iPhone = AppStore|iPhone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{68741C04-AB31-4D4A-B824-6AD709282363}.Ad-Hoc|iPhone.ActiveCfg = Release|Any CPU
+		{68741C04-AB31-4D4A-B824-6AD709282363}.Ad-Hoc|iPhone.Build.0 = Release|Any CPU
+		{68741C04-AB31-4D4A-B824-6AD709282363}.AppStore|iPhone.ActiveCfg = Release|Any CPU
+		{68741C04-AB31-4D4A-B824-6AD709282363}.AppStore|iPhone.Build.0 = Release|Any CPU
+		{68741C04-AB31-4D4A-B824-6AD709282363}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{68741C04-AB31-4D4A-B824-6AD709282363}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{68741C04-AB31-4D4A-B824-6AD709282363}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{68741C04-AB31-4D4A-B824-6AD709282363}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{68741C04-AB31-4D4A-B824-6AD709282363}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{68741C04-AB31-4D4A-B824-6AD709282363}.Release|iPhone.Build.0 = Release|Any CPU
+		{68741C04-AB31-4D4A-B824-6AD709282363}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{68741C04-AB31-4D4A-B824-6AD709282363}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{BF6D5CBE-B689-49D1-9E63-79E55DF35405}.Ad-Hoc|iPhone.ActiveCfg = Ad-Hoc|iPhone
+		{BF6D5CBE-B689-49D1-9E63-79E55DF35405}.Ad-Hoc|iPhone.Build.0 = Ad-Hoc|iPhone
+		{BF6D5CBE-B689-49D1-9E63-79E55DF35405}.AppStore|iPhone.ActiveCfg = AppStore|iPhone
+		{BF6D5CBE-B689-49D1-9E63-79E55DF35405}.AppStore|iPhone.Build.0 = AppStore|iPhone
+		{BF6D5CBE-B689-49D1-9E63-79E55DF35405}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{BF6D5CBE-B689-49D1-9E63-79E55DF35405}.Debug|iPhone.Build.0 = Debug|iPhone
+		{BF6D5CBE-B689-49D1-9E63-79E55DF35405}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{BF6D5CBE-B689-49D1-9E63-79E55DF35405}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{BF6D5CBE-B689-49D1-9E63-79E55DF35405}.Release|iPhone.ActiveCfg = Release|iPhone
+		{BF6D5CBE-B689-49D1-9E63-79E55DF35405}.Release|iPhone.Build.0 = Release|iPhone
+		{BF6D5CBE-B689-49D1-9E63-79E55DF35405}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{BF6D5CBE-B689-49D1-9E63-79E55DF35405}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+		{E38CEE99-4A93-4D89-B900-F2E791C450E1}.Ad-Hoc|iPhone.ActiveCfg = Release|Any CPU
+		{E38CEE99-4A93-4D89-B900-F2E791C450E1}.Ad-Hoc|iPhone.Build.0 = Release|Any CPU
+		{E38CEE99-4A93-4D89-B900-F2E791C450E1}.AppStore|iPhone.ActiveCfg = Release|Any CPU
+		{E38CEE99-4A93-4D89-B900-F2E791C450E1}.AppStore|iPhone.Build.0 = Release|Any CPU
+		{E38CEE99-4A93-4D89-B900-F2E791C450E1}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{E38CEE99-4A93-4D89-B900-F2E791C450E1}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{E38CEE99-4A93-4D89-B900-F2E791C450E1}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{E38CEE99-4A93-4D89-B900-F2E791C450E1}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{E38CEE99-4A93-4D89-B900-F2E791C450E1}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{E38CEE99-4A93-4D89-B900-F2E791C450E1}.Release|iPhone.Build.0 = Release|Any CPU
+		{E38CEE99-4A93-4D89-B900-F2E791C450E1}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{E38CEE99-4A93-4D89-B900-F2E791C450E1}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = GalleryApp-iOS.csproj
+	EndGlobalSection
+EndGlobal
